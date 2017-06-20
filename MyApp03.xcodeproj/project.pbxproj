@@ -12,6 +12,7 @@
 		29D1D0AE1EF8C3D700422970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D1D0AC1EF8C3D700422970 /* Main.storyboard */; };
 		29D1D0B01EF8C3D700422970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D1D0AF1EF8C3D700422970 /* Assets.xcassets */; };
 		29D1D0B31EF8C3D700422970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D1D0B11EF8C3D700422970 /* LaunchScreen.storyboard */; };
+		29D1D0BB1EF8D24E00422970 /* RongAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1D0BA1EF8D24E00422970 /* RongAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		29D1D0AF1EF8C3D700422970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D1D0B21EF8C3D700422970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29D1D0B41EF8C3D700422970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D1D0BA1EF8D24E00422970 /* RongAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RongAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				29D1D0A81EF8C3D700422970 /* AppDelegate.swift */,
 				29D1D0AA1EF8C3D700422970 /* ViewController.swift */,
+				29D1D0BA1EF8D24E00422970 /* RongAPI.swift */,
 				29D1D0AC1EF8C3D700422970 /* Main.storyboard */,
 				29D1D0AF1EF8C3D700422970 /* Assets.xcassets */,
 				29D1D0B11EF8C3D700422970 /* LaunchScreen.storyboard */,
@@ -96,7 +99,6 @@
 				TargetAttributes = {
 					29D1D0A41EF8C3D700422970 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = SHM7BV492J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D1D0AB1EF8C3D700422970 /* ViewController.swift in Sources */,
+				29D1D0BB1EF8D24E00422970 /* RongAPI.swift in Sources */,
 				29D1D0A91EF8C3D700422970 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SHM7BV492J;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyApp03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.MyApp03;
@@ -276,7 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SHM7BV492J;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyApp03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.MyApp03;
